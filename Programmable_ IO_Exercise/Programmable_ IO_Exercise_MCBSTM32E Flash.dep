@@ -1,75 +1,0 @@
-Dependencies for Project 'Programmable_ IO_Exercise', Target 'MCBSTM32E Flash': (DO NOT MODIFY !)
-F (.\startup_stm32f10x_hd.s)(0x56683769)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x--list .\flash\startup_stm32f10x_hd.lst --xref -o .\flash\startup_stm32f10x_hd.o --depend .\flash\startup_stm32f10x_hd.d)
-F (.\system_stm32f10x.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\GLCD_16bitIF_STM32.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\glcd_16bitif_stm32.o --omf_browse .\flash\glcd_16bitif_stm32.crf --depend .\flash\glcd_16bitif_stm32.d)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\Font_6x8_h.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\Font_16x24_h.h)(0x56683769)
-F (.\IRQ.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\LED_Functions.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\led_functions.o --omf_browse .\flash\led_functions.crf --depend .\flash\led_functions.d)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\LCD_Functions.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\lcd_functions.o --omf_browse .\flash\lcd_functions.crf --depend .\flash\lcd_functions.d)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdio.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\ARMCC\include\string.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LCD_Functions.h)(0x56683769)
-F (.\Programmable_ IO_Exercise.c)(0x56683D6B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o ".\flash\programmable_ io_exercise.o" --omf_browse ".\flash\programmable_ io_exercise.crf" --depend ".\flash\programmable_ io_exercise.d")
-I (G:\Keil\IDE\ARM\ARMCC\include\stdio.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\ARMCC\include\string.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (G:\Keil\IDE\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LED_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LCD_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\clock.h)(0x56683769)
-F (.\Exercise1.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\exercise1.o --omf_browse .\flash\exercise1.crf --depend .\flash\exercise1.d)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LCD_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LED_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\clock.h)(0x56683769)
-F (.\clock.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\clock.o --omf_browse .\flash\clock.crf --depend .\flash\clock.d)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\clock.h)(0x56683769)
-F (.\Excercise2.c)(0x56683769)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\excercise2.o --omf_browse .\flash\excercise2.crf --depend .\flash\excercise2.d)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LED_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LCD_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\clock.h)(0x56683769)
-F (.\Exercise3.c)(0x56683DB8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Keil\IDE\ARM\RV31\INC-I G:\Keil\IDE\ARM\CMSIS\Include-I G:\Keil\IDE\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\exercise3.o --omf_browse .\flash\exercise3.crf --depend .\flash\exercise3.d)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\GLCD.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LCD_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\LED_Functions.h)(0x56683769)
-I (C:\Users\Alex\Desktop\GitHub\Programmable_IO_Exercise\Programmable_ IO_Exercise\clock.h)(0x56683769)
-F (.\Abstract.txt)(0x56683769)()

@@ -36,9 +36,6 @@ extern void exercise3(void);
   Main Program
  *----------------------------------------------------------------------------*/
 int main (void) {
-	int loopCount = 1;
-	int i;
-
 	//Following statement sets the timer interrupt frequency
 	//The clock rate on this boards MCU is 72 Mhz - this means
 	//every second there will be 72 million clocks. So, if use this
@@ -83,11 +80,4 @@ int main (void) {
 			exercise2(); // Do exercise 2 (by Tom Needham)
 			exercise3(); // Do exercise 3 (by Alexander Keidel)
 		}
-
-
-		/* PUT MORE LED DISPLAY PATTERNS BELOW */
-
-
-		//Increment the loop count
-		loopCount += 1;
 	}
