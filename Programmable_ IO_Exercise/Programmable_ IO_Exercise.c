@@ -70,12 +70,7 @@ int main (void) {
 	GLCD_DisplayString(2, 0, __FI, "====================");
 	GLCD_SetBackColor(White);
 	GLCD_SetTextColor(Blue);
-	GLCD_DisplayString(3, 0, __FI, "Ex1:");
-	GLCD_DisplayString(4, 0, __FI, "Ex2:");
-	GLCD_DisplayString(5, 0, __FI, "Ex3:");
-	GLCD_DisplayString(6, 0, __FI, "Ex4:");
-	GLCD_DisplayString(7, 0, __FI, "Ex5:");
-	GLCD_DisplayString(8, 0, __FI, "Ex6:");
+
 #endif // __USE_LCD
 
 	//The main body of the program requires a continuous loop which
@@ -83,7 +78,8 @@ int main (void) {
 	//states. It will be interrupted at regular intervals by the
 	//vectored timer interrupt as explained above!
   	while (TRUE) {
-			exercise2();
+			exercise1(); // Do exercise 1 (by Chris Nicholas)
+			exercise2(); // Do exercise 2 (by Tom Needham)
 		}
 
 
