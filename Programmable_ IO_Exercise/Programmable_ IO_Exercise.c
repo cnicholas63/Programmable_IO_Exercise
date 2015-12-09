@@ -29,6 +29,7 @@
 
 extern void exercise1(void);
 extern void exercise2(void);
+extern void exercise3(void);
 
 
 /*----------------------------------------------------------------------------
@@ -80,6 +81,7 @@ int main (void) {
   	while (TRUE) {
 			exercise1(); // Do exercise 1 (by Chris Nicholas)
 			exercise2(); // Do exercise 2 (by Tom Needham)
+			exercise3(); // Do exercise 3 (by Alexander Keidel)
 		}
 
 

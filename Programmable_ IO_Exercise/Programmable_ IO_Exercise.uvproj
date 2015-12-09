@@ -447,6 +447,11 @@
               <FileType>1</FileType>
               <FilePath>.\Excercise2.c</FilePath>
             </File>
+            <File>
+              <FileName>Exercise3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Exercise3.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -901,6 +906,11 @@
               <FileName>Excercise2.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Excercise2.c</FilePath>
+            </File>
+            <File>
+              <FileName>Exercise3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Exercise3.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1357,6 +1367,11 @@
               <FileType>1</FileType>
               <FilePath>.\Excercise2.c</FilePath>
             </File>
+            <File>
+              <FileName>Exercise3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Exercise3.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1811,6 +1826,11 @@
               <FileName>Excercise2.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Excercise2.c</FilePath>
+            </File>
+            <File>
+              <FileName>Exercise3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Exercise3.c</FilePath>
             </File>
           </Files>
         </Group>
