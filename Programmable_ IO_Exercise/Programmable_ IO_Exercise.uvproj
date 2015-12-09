@@ -442,6 +442,11 @@
               <FileType>1</FileType>
               <FilePath>.\clock.c</FilePath>
             </File>
+            <File>
+              <FileName>Excercise2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Excercise2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -891,6 +896,11 @@
               <FileName>clock.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>Excercise2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Excercise2.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1342,6 +1352,11 @@
               <FileType>1</FileType>
               <FilePath>.\clock.c</FilePath>
             </File>
+            <File>
+              <FileName>Excercise2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Excercise2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1791,6 +1806,11 @@
               <FileName>clock.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>Excercise2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Excercise2.c</FilePath>
             </File>
           </Files>
         </Group>

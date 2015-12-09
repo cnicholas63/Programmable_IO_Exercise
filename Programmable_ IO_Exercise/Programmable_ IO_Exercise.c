@@ -25,7 +25,10 @@
 
 
 
-#define LED_NUM     8                   /* Number of user LEDs  */
+#define LED_NUM     8      /* Number of user LEDs  */
+
+extern void exercise1(void);
+extern void exercise2(void);
 
 
 /*----------------------------------------------------------------------------
@@ -79,28 +82,8 @@ int main (void) {
 	//generally executes various functions and monitors various device
 	//states. It will be interrupted at regular intervals by the
 	//vectored timer interrupt as explained above!
-  	while (TRUE) {                           /* Loop forever                       */
-
-		displayTestMessage(3, 4, "LED Test1", loopCount);
-		//For all 8 LEDs do
-	  	for (i = 0; i < LED_NUM; i++) {
-			//Switch a LED on
-			LED_On(i);
-			//Wait for a second
-			delay(1);
-			//Switch LED off
-			LED_Off(i);
-			//Wait for a second
-			delay(1);
-		}                                           
-
-		displayTestMessage(4, 4, "LED Test2", loopCount);
-		//Slow flash all LEDs 4 times
-		for (i = 0; i != 3; i++) {
-			All_LEDs_On();
-			delay(1);
-			All_LEDs_Off();
-			delay(1);
+  	while (TRUE) {
+			exercise2();
 		}
 
 
@@ -109,5 +92,4 @@ int main (void) {
 
 		//Increment the loop count
 		loopCount += 1;
-  	}
-}
+	}

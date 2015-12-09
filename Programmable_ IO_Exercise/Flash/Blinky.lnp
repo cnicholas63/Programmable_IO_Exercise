@@ -8,6 +8,7 @@
 ".\flash\programmable_ io_exercise.o"
 ".\flash\exercise1.o"
 ".\flash\clock.o"
+".\flash\excercise2.o"
 --library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
