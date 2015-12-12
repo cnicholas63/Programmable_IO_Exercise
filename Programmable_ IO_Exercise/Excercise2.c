@@ -18,80 +18,60 @@
 #include "LED_Functions.h" /* Function prototypes for LED's */
 #include "LCD_Functions.h"
 #include "clock.h"
+#include "stm32f10x.h"
 
-#define DELAY 5
+#define DELAYLENGTH 5
 
 void exercise2(void) {
-	int i = 0;
+	int t = 0;
+	int u = 0;
+	int v = 0;
+	int value = 0;
+	char bitPattern[9][8] = {
+	{0, 0, 0, 0, 0, 0, 0, 0},
+	{1, 1, 1, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0},
+	{0, 0, 0, 1, 1, 1, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0},
+	{1, 0, 0, 0, 0, 0, 1, 1},
+	{0, 0, 0, 0, 0, 0, 0, 0},
+	{0, 1, 1, 1, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0},
+};
 	GLCD_Clear(White);                    /* Clear graphical LCD display        */
 	GLCD_SetBackColor(Blue);
 	GLCD_SetTextColor(White);
 	GLCD_DisplayString(0, 0, __FI, "   < Exercise 2>    ");
 	GLCD_DisplayString(1, 0, __FI, " By Thomas Needham  ");
 	GLCD_DisplayString(2, 0, __FI, "====================");
-	for( i = 0; i < 3; i++){ // Main outer loop
-		All_LEDs_Off(); // Turn all LEDs on
-		//Turn LED’s 0,1,2 on
-		LED_On(0);
-		delayShort(DELAY);
-		LED_On(1);
-		delayShort(DELAY);
-		LED_On(2);
-		delayShort(DELAY);
-			//Turn LED’s 0,1,2 off
-		LED_Off(0);
-		delayShort(DELAY);
-		LED_Off(1);
-		delayShort(DELAY);
-		LED_Off(2);
-		delayShort(DELAY);
+	for(t = 0; t < 3; t++) { // Main outer loop
+		for(u = 0; u < 9; u++) {
+			value = 0;
+			
+			for(v = 0; v < 8; v++) { // translate the bitPattern array into binary value.
+				value |= bitPattern[u][v] << v;		
+			}
+			
+			GPIOB->BRR |= 0x0000FF00;  // Clear LEDs
+			GPIOB->BSRR |= value << 8; // Set ON required LEDs
+			
+			delayShort(DELAYLENGTH); 
+			
+		}	
 		
-		//Turn LED’s 3,4,5 on
-		LED_On(3);
-		delayShort(DELAY);
-		LED_On(4);
-		delayShort(DELAY);
-		LED_On(5);
-		delayShort(DELAY);
-		
-		//Turn LED’s 3,4,5 off
-		LED_Off(3);
-		delayShort(DELAY);
-		LED_Off(4);
-		delayShort(DELAY);
-		LED_Off(5);
-		delayShort(DELAY);
-		
-		//Turn LED’s 6,7,0 on
-		LED_On(6);
-		delayShort(DELAY);
-		LED_On(7);
-		delayShort(DELAY);
-		LED_On(0);
-		delayShort(DELAY);
-		//Turn LED’s 6,7,0 off
-		LED_Off(6);
-		delayShort(DELAY);
-		LED_Off(7);
-		delayShort(DELAY);
-		LED_Off(0);
-		delayShort(DELAY);
-		
-		//Turn LED’s 1,2,3 on
-		LED_On(1);
-		delayShort(DELAY);
-		LED_On(2);
-		delayShort(DELAY);
-		LED_On(3);
-		delayShort(DELAY);
-		
-		//Turn LED’s 1,2,3 off
-		LED_Off(1);
-		delayShort(DELAY);
-		LED_Off(2);
-		delayShort(DELAY);
-		LED_Off(3);
-		delayShort(DELAY);
-		}
-		
-	}
+		for(u = 8; u >= 0; u--) {
+			value = 0;
+			
+			for(v = 0; v < 8; v++) { // translate the bitPattern array into binary value.
+				value |= bitPattern[u][v] << v;		
+			}
+			
+			GPIOB->BRR |= 0x0000FF00;  // Clear LEDs
+			GPIOB->BSRR |= value << 8; // Set ON required LEDs
+			
+			delayShort(DELAYLENGTH); 
+			
+		}	
+
+	}	
+}
